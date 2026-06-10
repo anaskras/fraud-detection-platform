@@ -64,6 +64,10 @@ def run_training(
         feature_cols,
         categorical_cols,
         model_path=models_dir / "catboost.cbm",
+        iterations=100,
+        learning_rate=0.05,
+        depth=6,
+        early_stopping_rounds=50,
     )
     print_metrics("CatBoost (numeric + categorical)", cb_metrics)
 
