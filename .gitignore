@@ -1,0 +1,21 @@
+# Raw datasets 
+data/raw/
+*.csv
+
+# Merged Parquet datasets
+data/merged/
+*.parquet
+
+# Trained models
+models/
+
+
+src/data/__pycache__/
+src/features/__pycache__/
+src/models/__pycache__/
+src/training/__pycache__/
+src/utils/__pycache__/
+src/visualization/__pycache__/
+src/evaluation/__pycache__/
+src/preprocessing/__pycache__/
+src/preprocessing/__pycache__/
